@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+.container-3-1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(8, 8, 8, 0);
+  position: fixed;
+  width: 78.5%;
+  font-family: "Roboto", sans-serif;
+  height: 60px;
+  border-radius: 5px;
+  align-items: center;
+}
+.container-3-1-button {
+  display: flex;
+  gap: 20px;
+  padding-left: 10px;
+}
+.back {
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.516);
+  border: none;
+  outline: none;
+}
+.back svg {
+  width: 35px;
+  height: 30px;
+  color: rgb(185, 185, 185);
+  cursor: pointer;
+}
+.next {
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.516);
+  border: none;
+  outline: none;
+}
+.next svg {
+  width: 35px;
+  height: 25px;
+  cursor: pointer;
+}
+.next svg polyline {
+  fill: none;
+  stroke: rgb(185, 185, 185);
+  stroke-width: 3;
+}
+.container-3-1-login-sign {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.login {
+  border-radius: 40px;
+  width: 100px;
+  color: white;
+  height: 40px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(0, 0, 0, 0.305);
+}
+.sign {
+  border-radius: 40px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+}

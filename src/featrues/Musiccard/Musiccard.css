@@ -1,0 +1,43 @@
+.heading {
+  color: white;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  padding-left: 2.5rem;
+  cursor: pointer;
+  
+}
+.heading:hover{
+    text-decoration: underline;
+}
+.container5-1 {
+    font-family: 'Roboto', sans-serif;
+  display: flex;
+ justify-content: space-evenly;
+
+}
+.container5-1-1{
+    background-color: rgba(40, 39, 39, 0.779);
+    width: 16%;
+    height: 38vh;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+gap: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.playlistlobo img{
+width: 160px;
+border-radius: 5px;
+}
+
+.playlistName{
+    font-size: large;
+    width: 21vh;
+}
+.playlistdescrition{
+    font-size: small;
+    width: 21vh;
+}

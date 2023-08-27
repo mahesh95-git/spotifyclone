@@ -1,0 +1,151 @@
+.playlistcontainer {
+  display: flex;
+  background-color: black;
+}
+.container6-1 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  color: rgb(191, 191, 191);
+  margin-left: 10px;
+  width: 100vw;
+  overflow-y: scroll;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: rgba(10, 10, 10, 0.59);
+  height: 87vh;
+}
+.container6-1::-webkit-scrollbar {
+  display: none;
+}
+
+.container6-1-1 {
+  background-image: linear-gradient(
+    to bottom,
+    rgb(255, 0, 0),
+    rgba(199, 6, 6, 0.252)
+  );
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  height: 50%;
+  padding-left: 20px;
+  gap: 30px;
+}
+.playlistimg img {
+  width: 13rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+}
+.playlistname {
+  font-size: 100px;
+  font-weight: 1000;
+}
+.cotainer6-1-2-1 {
+  background-image: linear-gradient(
+    to bottom,
+    hsla(0, 100%, 51%, 0.199),
+    rgba(23, 4, 4, 0.464)
+  );
+  height: 10vh;
+}
+.cotainer6-1-2-1 {
+  display: flex;
+
+  align-items: center;
+  padding-left: 20px;
+}
+.playAll button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.playAll button svg {
+  width: 60px;
+  height: 60px;
+  color: green;
+
+}
+.cotainer6-1-2-2 {
+  background-image: linear-gradient(
+    to top,
+    rgba(6, 6, 6, 0.068),
+    rgba(35, 6, 6, 0.296)
+  );
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.title {
+  width: 45%;
+  text-align: center;
+}
+.duration {
+  width: 20%;
+  text-align: center;
+}
+
+.like {
+  width: 20%;
+  text-align: center;
+}
+.container6-1-2-3 {
+  display: flex;
+  background-color: rgba(10, 10, 10, 0.174);
+  box-shadow: 0px 0px 2px 2px black;
+  align-items: center;
+  margin-top: 5px;
+  border: none;
+}
+.container6-1-2-3-1 {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  gap: 10px;
+}
+.songopic img {
+  width: 50px;
+}
+.songduration {
+  text-align: center;
+  width: 20%;
+}
+.savelibarary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.playicon {
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.playicon button{
+  cursor:pointer;
+  background-color: transparent;
+  border:none;
+}
+.playicon button svg{
+  color: wheat;
+  width: 25px;
+  height: 25px;
+}
+.songdesc {
+  font-size: small;
+}
+.savelibarary button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.savelibarary svg {
+  color: white;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.savelibarary svg path {
+  fill: white;
+}

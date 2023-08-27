@@ -1,0 +1,15 @@
+.container-2-1 {
+  margin-top: 10px;
+  color: white;
+  margin-left: 10px;
+  width: 100vw;
+  overflow-y: scroll;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: rgba(32, 32, 32, 0.59);
+
+  height: 87vh;
+}
+.container-2-1::-webkit-scrollbar {
+  display: none;
+}

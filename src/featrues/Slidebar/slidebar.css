@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.container-1{
+    width: 25%;
+    margin-left: 10px;   
+}
+.container-1-1{
+   margin-top: 10px;
+    display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+background-color: rgba(32, 32, 32, 0.59);
+height: 15vh;
+font-family: 'Roboto', sans-serif;
+border-radius: 10px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  
+}
+.home-icon svg{
+    margin-right: 30px;
+    color:rgb(172, 170, 170);
+    width: 28px;
+    height: 28px;
+}
+.home-lable{
+    font-size: large;
+    color:rgb(172, 170, 170);
+}
+.search{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    color:rgb(172, 170, 170);
+}
+.search-icon svg{
+    margin-right: 30px;
+    color:rgb(172, 170, 170);
+    width: 28px;
+    height: 28px;
+}
+.search-lable{
+    font-size: large;
+
+}
+.container-1-2{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    border-radius: 10px;
+    color:rgb(172, 170, 170);
+    background-color: rgba(32, 32, 32, 0.59);
+    height: 70.5vh;
+    padding-top: 20px;
+}
+.container-1-2-1{
+    display: flex;
+  justify-content: space-between;
+    
+}
+
+.yourLibary{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Library-icon svg{
+    color:rgb(172, 170, 170);
+    width: 28px;
+    height: 28px;
+    margin-right: 30px;
+}
+.Library-lable{
+    font-size: large;
+}
+.plus-icon svg{
+    color:rgb(172, 170, 170);
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
